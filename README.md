@@ -2,7 +2,11 @@
 https://galynawork.github.io/SolutionsForRetail/
 <br/>
 <p>Mobile version</p>
-![alt tag](https://github.com/GalynaWork/SolutionsForRetail/blob/master/mobile.gif)
+<p align="center">
+  <img src="your_relative_path_here" width="350"/>
+  <img src="https://github.com/GalynaWork/SolutionsForRetail/blob/master/mobile.gif" width="350"/>
+</p>
+
 
 <br/>
 <p>Desktop version</p>
