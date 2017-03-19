@@ -1,6 +1,6 @@
 # SolutionsForRetail
 
-<a href="https://galynawork.github.io/SolutionsForRetail/" target="_blank">galynawork.github.io/SolutionsForRetail</a>
+https://galynawork.github.io/SolutionsForRetail/
 <br/>
 <h3 font-size="22px">Desktop version</h3>
 
