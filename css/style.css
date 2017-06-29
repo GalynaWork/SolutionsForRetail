@@ -47,7 +47,8 @@ body {
       border: none;
       font: 100 14px 'Lato', sans-serif;
       margin-left: 31px;
-      letter-spacing: 0.06em; }
+      letter-spacing: 0.06em;
+      display: none; }
     .social_link li a {
       color: #ffffff; }
     .social_link li:hover i {
