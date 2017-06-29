@@ -107,15 +107,21 @@ body {
 
 .navbar-brand {
   align-items: center;
+  -webkit-align-items: center;
 
   display: flex;
   height: 100px;
+  display: -webkit-flex;
+
 }
 
 .nav {
   float: right;
   display: flex;
   align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+
   height: 100px;
   .dropdown {
     margin-left: 22px;
@@ -290,6 +296,9 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -300,6 +309,7 @@ body {
     color: $white;
     height: 51px;
     justify-content: center;
+    -webkit-justify-content: center;
     transition: height 450ms ease 0s;
   }
 }
@@ -355,6 +365,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     transition: background-color 450ms ease 0s;
   }
 }
@@ -383,6 +396,9 @@ footer {
     float: right;
     display: flex;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+
     height: 40px;
     margin: 0;
     li {
@@ -514,6 +530,9 @@ footer {
   .navbar-header {
     display: flex;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+
     button {
       margin-left: auto
     }

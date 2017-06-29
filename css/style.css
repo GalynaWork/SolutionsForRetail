@@ -72,13 +72,17 @@ body {
 
 .navbar-brand {
   align-items: center;
+  -webkit-align-items: center;
   display: flex;
-  height: 100px; }
+  height: 100px;
+  display: -webkit-flex; }
 
 .nav {
   float: right;
   display: flex;
   align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
   height: 100px; }
   .nav .dropdown {
     margin-left: 22px; }
@@ -212,6 +216,8 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -222,6 +228,7 @@ body {
     color: #ffffff;
     height: 51px;
     justify-content: center;
+    -webkit-justify-content: center;
     transition: height 450ms ease 0s; }
 
 #portfolio a:hover img, #aboutUs a:hover img {
@@ -262,6 +269,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     transition: background-color 450ms ease 0s; }
 
 footer {
@@ -285,6 +295,8 @@ footer {
     float: right;
     display: flex;
     align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
     height: 40px;
     margin: 0; }
     .footer ul li {
@@ -373,7 +385,9 @@ footer {
 
   .navbar-header {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center; }
     .navbar-header button {
       margin-left: auto; }
 
